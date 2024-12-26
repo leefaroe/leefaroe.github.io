@@ -1863,6 +1863,8 @@ https://quickchart.io/
             }
         };
         function functionInit() {
+            var url=window.location.href
+            console.log('url:'+url)
             $.fn.selectpicker.Constructor.BootstrapVersion = '4';
             preventFormSubmit()
             processRole()
