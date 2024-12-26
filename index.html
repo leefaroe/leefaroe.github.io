@@ -1869,7 +1869,11 @@ https://quickchart.io/
             preventFormSubmit()
             processRole()
             allProjectSetup()
-            //return
+            if (url=='https://leefaroe.github.io/') {
+                console.log('production url returning:'+url)
+                return
+
+            }
             projectPicked('999901 - Test Project 1')
             navbarSelected('Budget')
             //addEmployee('01 - Discovery')
